@@ -1,0 +1,24 @@
+RewriteEngine  on
+RewriteCond   %{HTTP_HOST}                 ^esquiroles\.[^.]+\.soydelbierzo\.com$
+RewriteRule   ^(.+)                        %{HTTP_HOST}$1          [C]
+RewriteRule   ^esquiroles\.([^.]+)\.soydelbierzo\.com(.*) /web$1$2
+RewriteRule directorio/guias/(.*) guides.php?activity=$1 [L]
+RewriteRule directorio/pagina/(.*)/guia/(.*)/localidad/(.*) guides.php?activity=$2&city=$3&pagindex=$1 [L]
+RewriteRule directorio/localidad/(.*) guides.php?city=$1 [L]
+RewriteRule ver/guia/(.*)/actividad/(.*) guides.php?city=$1&activity=$2 [L]
+RewriteRule ver/negocio/(.*) viewmobile.php?itemid=$1 [L]
+RewriteRule ver/mapa/(.*)/ancho/(.*)/alto/(.*) viewmobilemap.php?itemid=$1&width=$2&height=$3 [L]
+RewriteRule servicios/(.*) services.php?id=$1 [L]
+RewriteRule verificar/(.*) services.php?id=18&verifycode=$1 [L]
+RewriteRule contenido/ver/(.*) viewitem.php?itemid=$1 [L]
+RewriteRule contenido/negocios/(.*)/localidad/(.*) getinfo.php?id=$1&city=$2 [L]
+RewriteRule contenido/portada/ getinfo.php [L]
+RewriteRule contenido/eltiempo/ getweather.php [L]
+RewriteRule ayuda/(.*) viewhelp.php?helpmeid=$1 [L]
+RewriteRule especial/(.*) index.php?specialcat=$1 [L]
+RewriteCond %{HTTP_USER_AGENT} Wget [OR] 
+RewriteCond %{HTTP_USER_AGENT} CherryPickerSE [OR] 
+RewriteCond %{HTTP_USER_AGENT} CherryPickerElite [OR] 
+RewriteCond %{HTTP_USER_AGENT} EmailCollector [OR] 
+RewriteCond %{HTTP_USER_AGENT} EmailSiphon [OR] 
+
