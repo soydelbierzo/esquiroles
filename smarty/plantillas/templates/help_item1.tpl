@@ -1,0 +1,10 @@
+<html>
+<body>
+<div><b>Bienvenido a la Ayuda de Esquiroles</b></div><br />
+<div>El mapa interactivo que aparece en la portada de Esquiroles muestra los puntos de inter&eacute;s para la b&uacute;squeda que Vd. est&aacute; realizando, por defecto se muestran los Ayuntamientos de las localidades englobadas dentro del proyecto.</div><br />
+<div>Pinche directamente sobre los iconos del mapa para ampliar informaci&oacute;n, o bien use la caja con el listado que aparece dentro del propio mapa., haga zoom usando la barra que se encuentra a la izquierda del mapa o haciendo doble click sobre el punto que desee agrandar.</div><br />
+<div>En cualquier momento puede volver al mapa original pinchando en el icono que se encuentra entre las 4 flechas a la izquierda del mapa.</div><br />
+<div>El mapa dispone de 4 modos de visualizaci&oacute;n, por defecto aparece el modo h&iacute;brido, que incluye informaci&oacute;n de localidades y calles sobre im&aacute;genes tomadas por sat&eacute;lite. El modo Mapa muestra solo un mapa sin fotograf&iacute;a satelital, Sat&eacute;lite muestra la fotograf&iacute;a de sat&eacute;lite sin la informaci&oacute;n de calles y localidades y finalmente el cuarto modo, Ortofoto, es muy &uacute;til para aquellas zonas en las que la foto de sat&eacute;lite es de mala calidad. Si est&aacute; haciendo zoom sobre una localidad y ve que la imagen de sat&eacute;lite es mala, pinche en Ortofoto y podr&aacute; ver el callejro y localidades sobre fotograf&iacute;a tomada desde avi&oacute;n, con m&aacute;s detalle que la de sat&eacute;lite. Si selecciona Ortofoto con el zoom muy abierto sobre las comarcas, en lugar de fotograf&iacute;as ver&aacute; el cl&aacute;sico mapa topogr&aacute;fico que se convertir&aacute; en fotograf&iacute;as al ir acercando el zoom sobre un punto determinado del mapa.</div><br />
+<div>Usando el buscador que se encuentra en la barra de navegaci&oacute;n izquierda de la web podr&aacute; visualizar en el mapa o en un listado los tipos de negocio que le interesan, pudiendo acotar la b&uacute;squeda por localidades.</div><br />
+</body>
+</html>
